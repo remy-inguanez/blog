@@ -26,6 +26,7 @@
 
 <body>
 
+
   <!-- Page Header -->
         <header class="masthead" style="background-image: url('img/giphy.gif')">
     <div class="overlay"></div>
@@ -88,7 +89,7 @@
                         $_SESSION["id"]=$resultat["id"];
                         $_SESSION['login']=$resultat["login"];
                         mysqli_close($connexion);
-                        header('Location: index.php');
+                        header('Location: profil.php');
                     }
 
                     else
